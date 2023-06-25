@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 function App() {
 
   return (
-    <>
+    <div className="main">
       <Navbar />
       <Hero />
       {/* <Projects />
@@ -13,7 +13,7 @@ function App() {
       <Contact />
       <Footer /> */}
 
-    </>
+    </div>
   )
 }
 

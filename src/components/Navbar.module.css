@@ -2,11 +2,19 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: red;
 }
 
 .links {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    justify-content: space-evenly;
+}
+
+.smaller {
+    font-size: 17px;
+}
+
+.portrait {
+    max-width: 150px;
 }

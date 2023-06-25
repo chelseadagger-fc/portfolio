@@ -1,8 +1,36 @@
 .intro {
-    font-size: 48px;
+    font-size: 58px;
     font-family: 'Kalam', cursive;
+    margin-top: 150px;
+    margin-bottom:0;
+}
+
+.subtitle {
+    margin-top: 15px;
+    font-size: 2.3rem;
 }
 
 .name {
-    color: firebrick;
+    color: #FF6000;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    align-items: flex-end;
+}
+
+.portrait {
+    max-width: 350px;
+    border-radius: 16px;
+    padding-right: 25px;
+}
+
+.typer {
+    font-size: 36px;
+}
+
+.description {
+    font-size: 32px;
 }

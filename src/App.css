@@ -1,4 +1,12 @@
 html {
-    background-color: #F7F7F7;
-    font-family: a
+    background-color: #E3F4F4;
+    font-family: 'Poppins', sans-serif;
 }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    margin: auto;
+}
+

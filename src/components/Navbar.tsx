@@ -7,10 +7,11 @@ export default function Navbar() {
 
     return (
         <nav>
-            <h1 className={setClass(["red", "big"])}>Navbar!</h1>
+            <h3 className={setClass(["red", "big"])}>daniel-aldridge.dev <span className={css.smaller}>/</span></h3>
             <div className={setClass(["links"])}>
                 <p>About</p>
                 <p>Works</p>
+                <p>Blog</p>
                 <p>Contact</p>
             </div>
         </nav>
