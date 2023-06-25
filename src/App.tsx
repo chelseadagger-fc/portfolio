@@ -1,6 +1,7 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Contact from './components/Contact'
 
 function App() {
 
@@ -9,9 +10,9 @@ function App() {
       <Navbar />
       <Hero />
       {/* <Projects />
-      <Pitch />
+      <Pitch /> */}
       <Contact />
-      <Footer /> */}
+      {/* <Footer /> */}
 
     </div>
   )

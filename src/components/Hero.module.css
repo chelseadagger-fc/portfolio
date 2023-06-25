@@ -1,8 +1,8 @@
 .intro {
     font-size: 58px;
     font-family: 'Kalam', cursive;
-    margin-top: 150px;
-    margin-bottom:0;
+    margin-top: 35px;
+    margin-bottom: 30px;
 }
 
 .subtitle {
@@ -10,21 +10,27 @@
     font-size: 2.3rem;
 }
 
-.name {
+.highlight {
     color: #FF6000;
+    font-weight: bold;
+}
+
+.spaced {
+    margin-right: 3px;
+    margin-left: 25px;
 }
 
 .head {
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
-    align-items: flex-end;
+    margin-top: 60px;
+    align-items: center;
 }
 
 .portrait {
-    max-width: 350px;
+    max-width: 300px;
     border-radius: 16px;
-    padding-right: 25px;
+    margin-right: 30px;
 }
 
 .typer {
@@ -33,4 +39,23 @@
 
 .description {
     font-size: 32px;
+    margin: 50px 20px;
 }
+
+.blinking-cursor::after {
+    content: "|";
+    animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+@keyframes cursor-blink {
+    0% {
+      opacity: 0;
+    }
+  }
+
+  .portals {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
