@@ -1,5 +1,5 @@
 import css from './Hero.module.css'
-import daniel from '../../public/images/daniel-popart.png'
+import daniel from '../images/daniel-popart.png'
 import Typist from 'react-typist-component';
 import { useEffect, useState } from 'react';
 

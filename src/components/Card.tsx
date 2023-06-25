@@ -1,14 +1,14 @@
 import css from './Card.module.css'
 
-export default function Card() {
+export default function Card(props) {
     return (
         <>
-            <div className="main">
+            <div className={css.main}>
                 {/* img */}
                 <div className="info">
                     <div className="info--top">
-                        <span className="title"></span>
-                        <p className="description"></p>
+                        <span className={css.title}>{props.title}</span>
+                        <p className="description">{props.desc}</p>
                     </div>
                     <div className="info--bottom">
                         <p>Built with:</p>
