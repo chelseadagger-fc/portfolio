@@ -27,7 +27,7 @@ export default function Hero() {
             <div className={css.head}>
                 <img className={css.portrait} src={daniel} />
                 <div>
-                    <h1 className={setClass(["intro"])}>Hi! I'm <span className={css.highlight}>Daniel</span> 👋</h1>
+                    <h1 className={css.intro}>Hi! I'm <span className={css.highlight}>Daniel</span> 👋</h1>
                         <div className={css.typer}>
                             <span className={css.spaced}>and I'm a </span>{count ? (<Typist onTypingDone={() => setCount(0)}>
                             {wordScroll.map((word) => [

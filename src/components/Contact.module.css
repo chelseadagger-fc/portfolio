@@ -1,3 +1,8 @@
+.head {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
 .highlight {
     color: #FF6000;
     font-style: italic;
