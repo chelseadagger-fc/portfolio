@@ -12,10 +12,10 @@ export default function Hero() {
     const [count, setCount] = useState(1);
 
     const wordScroll = [
-        'full-stack developer',
-        'front-end designer',
-        'back-end engineer',
-        'freelancer',
+        'full-stack developer.',
+        'front-end designer.',
+        'back-end engineer.',
+        'freelancer.',
       ];
 
       useEffect(() => {
