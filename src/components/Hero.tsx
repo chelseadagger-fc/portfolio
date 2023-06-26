@@ -23,10 +23,9 @@ export default function Hero() {
       }, [count]);
 
     return (
-        <section>
+        <section className={css.hero}>
             <div className={css.head}>
-                <img className={css.portrait} src={daniel} />
-                <div>
+                <div className={css.greeting}>
                     <h1 className={css.intro}>Hi! I'm <span className={css.highlight}>Daniel</span> 👋</h1>
                         <div className={css.typer}>
                             <span className={css.spaced}>and I'm a </span>{count ? (<Typist onTypingDone={() => setCount(0)}>
@@ -43,6 +42,7 @@ export default function Hero() {
                         </div>
 
                 </div>
+                <img className={css.portrait} src={daniel} />
             </div>
             <p className={css.description}>I'm a full-stack web developer who loves to craft beautiful and intuitive web solutions.</p>
 

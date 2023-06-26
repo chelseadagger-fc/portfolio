@@ -8,6 +8,7 @@ export default function Projects() {
                 key={data.id}
                 title={data.title}
                 desc={data.desc}
+                img={data.img}
                 />
     })
 

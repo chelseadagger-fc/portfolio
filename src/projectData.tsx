@@ -1,17 +1,20 @@
 export default [
     {
+        id: 0,
+        title: "AirBnb Clone",
+        desc: "This was an AirBnb clone project as part of the Scrimba course on React. It taught a lot of useful features, but especially the passing and mapping of props.",
+        img: "proj-airbnb.png"
+    },
+    {
         id: 1,
-        title: "Project 1",
-        desc: "Description of Project 1."
+        title: "AirBnb Clone",
+        desc: "This was an AirBnb clone project as part of the Scrimba course on React. It taught a lot of useful features, but especially the passing and mapping of props.",
+        img: "proj-airbnb.png"
     },
     {
         id: 2,
-        title: "Project 2",
-        desc: "Description of Project 2."
-    },
-    {
-        id: 3,
-        title: "Project 3",
-        desc: "Description of Project 3."
+        title: "AirBnb Clone",
+        desc: "This was an AirBnb clone project as part of the Scrimba course on React. It taught a lot of useful features, but especially the passing and mapping of props.",
+        img: "proj-airbnb.png"
     }
 ]

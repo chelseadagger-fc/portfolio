@@ -4,7 +4,7 @@ export default function Card(props) {
     return (
         <>
             <div className={css.main}>
-                {/* img */}
+                <img className={css.preview} src={"../../public/images/" + props.img} height="300px" />
                 <div className="info">
                     <div className="info--top">
                         <span className={css.title}>{props.title}</span>

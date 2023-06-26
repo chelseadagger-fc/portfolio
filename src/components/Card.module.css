@@ -1,7 +1,19 @@
 .main {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
 }
 
 .title {
-    color: firebrick;
+    color: #FF6000;
 }
+
+.preview {
+    margin-right: 30px;
+    border: 5px solid black;
+}
+
+.preview:hover {
+    
+    box-shadow: #FF6000 10px 10px;
+  }
