@@ -44,7 +44,7 @@ export default function Hero() {
                 </div>
                 <img className={css.portrait} src={daniel} />
             </div>
-            <p className={css.description}>I'm a full-stack web developer who loves to craft beautiful and intuitive web solutions.</p>
+            <p className={css.description}>I'm a full-stack web developer who loves to craft beautiful and intuitive web solutions. My specialty lies in the MERN tech stack, but my experience in self-taught web development means I can pick up any technology.</p>
 
         </section>
     )

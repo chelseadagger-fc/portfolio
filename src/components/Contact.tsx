@@ -6,17 +6,25 @@ export default function Contact() {
     return (
         <section>
             <h1 className={css.head}>Let's get in touch!</h1>
-            <h3>Contact me at <span className={css.highlight}>hello@daniel-aldridge.dev</span></h3>
+            <h3>Contact me at  <a className={css.email}>hello@daniel-aldridge.dev</a></h3>
             <h3>or find me at:</h3>
             <div className={css.portals}>
                 <FaGithub
-                    size="2rem" />
+                    size="2rem"
+                    onMouseOver={({target})=>target.style.color="#FF6000"}
+                    onMouseOut={({target})=>target.style.color="antiquewhite"} />
                 <FaTwitterSquare
-                    size="2rem" />
+                    size="2rem"
+                    onMouseOver={({target})=>target.style.color="#FF6000"}
+                    onMouseOut={({target})=>target.style.color="antiquewhite"} />
                 <FaLinkedin
-                    size="2rem" />
+                    size="2rem"
+                    onMouseOver={({target})=>target.style.color="#FF6000"}
+                    onMouseOut={({target})=>target.style.color="antiquewhite"} />
                 <FaDiscord
-                    size="2rem" />
+                    size="2rem"
+                    onMouseOver={({target})=>target.style.color="#FF6000"}
+                    onMouseOut={({target})=>target.style.color="antiquewhite"} />
             </div>
         </section>
     )
