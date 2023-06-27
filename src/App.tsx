@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Footer from './components/footer'
 
 export default function App() {
 
@@ -14,7 +15,7 @@ export default function App() {
       <Projects />
       {/* <Pitch /> */}
       <Contact />
-      {/* <Footer /> */}
+      <Footer />
 
     </div>
   )

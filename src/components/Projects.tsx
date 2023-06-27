@@ -13,10 +13,12 @@ export default function Projects() {
     })
 
     return (
-        <section>
-            <h1 className={css.title}>Projects</h1>
-            <div className-="project-list">
-                {projectCards}
+        <section className={css.project}>
+            <div className={css.main}>
+                <h1 className={css.title}>Projects</h1>
+                <div className-="project-list">
+                    {projectCards}
+                </div>
             </div>
         </section>
     )

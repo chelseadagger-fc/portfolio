@@ -1,6 +1,23 @@
+.contact {
+    background-color: #18122B;
+    margin: 0;
+}
+
+.main {
+    max-width: 1600px;
+    min-width: 600px;
+    margin: auto;
+    padding: 30px 0 80px 0;
+}
+
 .head {
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 0;
+}
+
+.content {
+    padding-left: 7%;
+    font-size: 20px;
 }
 
 .email {
@@ -11,13 +28,13 @@
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     margin-left: 5px;
     font-style: italic;
+    font-size: 30px;
 }
 
 .email:hover {
     color: #fff;
-    box-shadow: inset 270px 0 0 0 #FF6000;;
-  }
-
+    box-shadow: inset 500px 0 0 0 #FF6000;;
+}
 
 .portals {
     display: flex;

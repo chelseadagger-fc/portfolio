@@ -1,0 +1,10 @@
+.main {
+    margin: auto;
+    font-size: 10px;
+    max-width: 1500px;
+    min-width: 600px;
+}
+
+.copyright {
+    font-weight: 300;
+}

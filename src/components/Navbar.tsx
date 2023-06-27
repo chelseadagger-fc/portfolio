@@ -8,15 +8,17 @@ export default function Navbar() {
 
     return (
         <nav>
-            <h3 className={setClass(["red", "big"])}>daniel-aldridge.dev <span className={css.smaller}>/</span></h3>
-            <div className={setClass(["links"])}>
-                <a>About</a>
-                <a>Projects</a>
-                <a>Blog</a>
-                <a>Contact</a>
-                {/* <PiMoonStarsBold
-                    size="2rem"
-                /> */}
+            <div className={css.main}>
+                <h3 className={setClass(["red", "big"])}>daniel-aldridge.dev <span className={css.smaller}>/</span></h3>
+                <div className={setClass(["links"])}>
+                    <a>About</a>
+                    <a>Projects</a>
+                    <a>Blog</a>
+                    <a>Contact</a>
+                    {/* <PiMoonStarsBold
+                        size="2rem"
+                    /> */}
+                </div>
             </div>
         </nav>
     )

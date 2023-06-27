@@ -1,3 +1,12 @@
+.project {
+    /* background-color: #18122B; */
+}
+
+.main {
+    max-width: 960px;
+    margin: auto;
+}
+
 .title {
     font-size: 3rem;
 }
