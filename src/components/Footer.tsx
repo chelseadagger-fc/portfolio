@@ -4,7 +4,8 @@ export default function Footer() {
     return (
         <footer className={css.footer}>
             <div className={css.main}>
-                <h1 className={css.copyright}>© 2023 Daniel Aldridge. All rights reserved.</h1>
+                <p>© 2023 Daniel Aldridge. All rights reserved.</p>
+                <p>Made with love, React and plenty of coffee.</p>
             </div>
         </footer>
     )

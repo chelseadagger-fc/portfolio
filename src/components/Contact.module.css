@@ -1,6 +1,7 @@
 .contact {
-    background-color: #18122B;
-    margin: 0;
+    background-color: #2b3345;
+    margin-top: 80px;
+    padding: 0;
 }
 
 .main {
@@ -25,7 +26,7 @@
     color: #54b3d6;
     padding: 0 .25rem;
     margin: 0 -.25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    transition: color .6s ease-in-out, box-shadow .6s ease-in-out;
     margin-left: 5px;
     font-style: italic;
     font-size: 30px;

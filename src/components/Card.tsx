@@ -8,7 +8,7 @@ export default function Card(props) {
                 <div className={css.info}>
                     <div className="info--top">
                         <span className={css.title}>{props.title}</span>
-                        <p className="description">{props.desc}</p>
+                        <p className={css.description}>{props.desc}</p>
                     </div>
                     <div className="info--bottom">
                         <p>Built with:</p>

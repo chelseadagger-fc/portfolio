@@ -1,10 +1,12 @@
 .project {
-    /* background-color: #18122B; */
+    /* border: 5px s black; */
 }
 
 .main {
     max-width: 960px;
     margin: auto;
+    /* border: 5px solid black;
+    padding: 50px; */
 }
 
 .title {

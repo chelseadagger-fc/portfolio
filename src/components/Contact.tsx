@@ -1,6 +1,7 @@
 import css from './Contact.module.css'
 import { FaTwitter, FaDiscord } from 'react-icons/fa';
 import { PiGithubLogoFill, PiLinkedinLogoFill } from 'react-icons/pi';
+import { Tooltip } from 'react-tooltip';
 
 
 export default function Contact() {
@@ -9,7 +10,12 @@ export default function Contact() {
             <div className={css.main}>
                 <h1 className={css.head}>Let's get in touch!</h1>
                 <div className={css.content}>
-                    <h3>Contact me at  <a className={css.email}>hello@daniel-aldridge.dev</a> </h3>
+                    <h3>Contact me at  <a 
+                        className={css.email}
+                        onClick={() =>  navigator.clipboard.writeText('hello@daniel-aldridge.dev')}
+                        data-tooltip-id="email-copied"
+                        data-tooltip-content="Click me to copy!">hello@daniel-aldridge.dev</a> </h3>
+                        <Tooltip id="email-copied" />
                     <h3>or find me at:</h3>
                     <div className={css.portals}>
                         <PiGithubLogoFill
