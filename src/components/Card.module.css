@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 10px 0;
+    margin: 0;
 }
 
 .title {
@@ -59,4 +59,8 @@
 .preview:hover {
     box-shadow: #FF6000 8px 8px;
     transition: box-shadow 0.3s ease-in-out;
+}
+
+.description {
+    font-size: 24px;
 }

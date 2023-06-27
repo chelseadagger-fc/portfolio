@@ -3,7 +3,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
-import Footer from './components/footer'
+import Footer from './components/Footer'
+import Techstack from './components/Techstack'
 
 export default function App() {
 
@@ -11,7 +12,7 @@ export default function App() {
     <div className="main">
       <Navbar />
       <Hero />
-      {/* <Techstack /> */}
+      <Techstack />
       <Projects />
       {/* <Pitch /> */}
       <Contact />
