@@ -5,6 +5,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Techstack from './components/Techstack'
+import HireMe from  './components/HireMe'
 
 export default function App() {
 
@@ -14,7 +15,7 @@ export default function App() {
       <Hero />
       <Techstack />
       <Projects />
-      {/* <Pitch /> */}
+      {/* <HireMe /> */}
       <Contact />
       <Footer />
 

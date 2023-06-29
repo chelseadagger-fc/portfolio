@@ -1,5 +1,5 @@
 import css from './Techstack.module.css'
-import { SiJavascript, SiTypescript, SiNextdotjs, SiReact, SiNodedotjs, SiHtml5, SiCss3, SiExpress, SiMongodb} from 'react-icons/si'
+import { SiJavascript, SiTypescript, SiNextdotjs, SiReact, SiNodedotjs, SiHtml5, SiCss3, SiExpress, SiMongodb } from 'react-icons/si'
 
 export default function Techstack() {
 const bigIcon = "6.5rem";
