@@ -5,7 +5,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Techstack from './components/Techstack'
-import HireMe from  './components/HireMe'
+// import HireMe from  './components/HireMe'
 
 export default function App() {
 
